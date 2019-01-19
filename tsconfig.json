@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "lib": ["dom", "es2015", "esnext"],
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "sourceMap": true
+  },
+  "awesome-typescript-loader": {
+    "useChecker": true,
+    "useWebpackText": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules/**/*", "dist"]
+}
